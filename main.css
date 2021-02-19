@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: .1rem;
+}
+
+header {
+    height: 25vh;
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: center;
+    color: blueviolet;
+    padding-top: 3%;
+    text-transform: uppercase;
+}
+
