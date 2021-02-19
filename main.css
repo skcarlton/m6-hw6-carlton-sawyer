@@ -22,7 +22,7 @@ header {
     font-size: 1.5rem;
 }
 
-p {
+.intro {
     text-align: center;
     color: blueviolet;
     padding-top: 3%;
@@ -32,7 +32,6 @@ p {
 .boxes {
     display: block;
     color: blueviolet;
-    font-size: 3rem;
     text-align: center;
 }
 
@@ -42,6 +41,7 @@ p {
     border: solid thick blueviolet;
     border-radius: 5px;
     box-shadow: 6px 6px 16px grey; 
+    font-size: 3rem;
 }
 
 .one{
@@ -56,6 +56,25 @@ p {
     background-color: chartreuse;
 }
 
+.hover {
+    background-color: coral;
+}
+
+.hide {
+    display: none;
+}
+
+.messages {
+    padding: 5%;
+    margin: auto;
+    border: solid thick blueviolet;
+    border-radius: 5px;
+    box-shadow: 6px 6px 16px grey; 
+    font-size: 1.5rem;
+    text-align: center;
+    width: 60%;
+}
+
 @media (min-width: 500px) {
     .boxes {
         display: flex;
@@ -67,7 +86,7 @@ p {
         padding: 6% 9%;
     }
 
-    p {
+    .intro {
         font-size: 1.5rem;
     }
 }
