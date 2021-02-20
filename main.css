@@ -65,14 +65,35 @@ header {
 }
 
 .messages {
-    padding: 5%;
-    margin: auto;
+    padding: 3%;
+    margin: 3% auto;
     border: solid thick blueviolet;
     border-radius: 5px;
     box-shadow: 6px 6px 16px grey; 
     font-size: 1.5rem;
     text-align: center;
     width: 60%;
+    color: blueviolet;
+}
+
+.start-over {
+    display: none;
+}
+
+.button {
+    padding: 3%;
+    margin: 3% auto;
+    width: 20%;
+    border: solid thick blueviolet;
+    border-radius: 5px;
+    box-shadow: 6px 6px 16px grey; 
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
 }
 
 @media (min-width: 500px) {
